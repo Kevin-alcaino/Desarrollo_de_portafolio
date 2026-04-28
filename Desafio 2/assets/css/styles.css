@@ -1,0 +1,26 @@
+.banner{
+    background-image: url(/assets/img/Captura\ de\ pantalla\ \(87\).png);
+    background-size: cover;
+    color: antiquewhite;
+    padding: 40px;
+    margin: 15px;
+    text-align: center;
+}
+ .imagen{
+width: 350px;
+height: 250px;
+border-radius: 25px;
+}
+.texto{background-size:cover;
+    padding: 70px;
+    margin: 15px;
+    text-align: left;
+
+}
+.redes{
+   background-image: url(/assets/img/Captura\ de\ pantalla\ \(87\).png);
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    color: antiquewhite
+}
