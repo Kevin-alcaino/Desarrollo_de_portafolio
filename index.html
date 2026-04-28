@@ -35,21 +35,23 @@
 
     <div class="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">PERFIL PROFESIONAL</a>
-        <a class="nav-link" href="#">EXPERIENCIA LABORAL</a>
-        <a class="nav-link" href="#">HABILIDADES TECNICAS</a>
-        <a class="nav-link disabled" aria-disabled="true">EDUCACIÓN</a>
-      </div>
-    </div>
-  </div>
-</nav>  
+  <div class="container">
+            <a class="navbar-brand fw-bold" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#perfil">Perfil Profesional</a>
+                    <a class="nav-link" href="#experiencia">Experiencia Laboral</a>
+                    <a class="nav-link" href="#habilidades">Habilidades Técnicas</a>
+                    <a class="nav-link" href="#educacion">Educación</a>
+                    <a class="nav-link" href="">Portafolio</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>  
       <div class="row justify-content-center">
            <div class="col-lg-8 cv-wrapper">
                 <header class="text-center mb-5">
@@ -62,12 +64,11 @@
                 </header>
 
                 <main>
-                    <section class="mb-5">
+                    <section id="perfil" class="mb-5">
                         <h2 class="section-title">Perfil Profesional</h2>
                         <p>Desarrollador Frontend apasionado por crear interfaces de usuario atractivas, funcionales y accesibles. Especializado en transformar diseños en código limpio utilizando tecnologías modernas.</p>
                     </section>
-
-                    <section class="mb-5">
+                    <section id="experiencia" class="mb-5">
                         <h2 class="section-title">Experiencia Laboral</h2>
                         <article class="mb-4">
                             <div class="d-flex justify-content-between align-items-center flex-wrap">
@@ -81,8 +82,7 @@
                             </ul>
                         </article>
                     </section>
-
-                    <section class="mb-5">
+                    <section id="habilidades" class="mb-5">
                         <h2 class="section-title">Habilidades Técnicas</h2>
                         <div class="d-flex flex-wrap gap-2">
                             <span class="btn btn-outline-dark btn-sm disabled">HTML5</span>
@@ -92,10 +92,12 @@
                             <span class="btn btn-outline-dark btn-sm disabled">JavaScript</span>
                         </div>
                     </section>
-
-                    <section>
+                    <section id="educacion">
                         <h2 class="section-title">Educación</h2>
                         <article>
+                            <h3 class="h6 mb-1 fw-bold">Desarrollo Web Frontend</h3>
+                            <p class="text-muted small">Bootcamp Desafío Latam | 2026</p>
+                        </article>
                             <h3 class="h6 mb-1 fw-bold">Desarrollo Web Frontend</h3>
                             <p class="text-muted small">Bootcamp Desafío Latam | 2026</p>
                         </article>
