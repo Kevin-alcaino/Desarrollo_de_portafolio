@@ -1,68 +1,94 @@
-.fondo{
+.fondo {
     display: flex;
     justify-content: center;
     width: 100%;
-    display: block;
+    overflow: hidden; 
 }
-.titulo{
+
+.fondo img {
+    max-width: 100%;
+    height: auto;
+}
+.titulo {
     display: flex;
     justify-content: center;
-
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 0;
 }
-.colorfondo{
+
+.colorfondo {
     background-color: bisque;
+    margin: 0; 
 }
-.articulo{
+
+.articulo {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 60px 120px;
+    padding: 60px 20px; 
+    flex-wrap: wrap; 
 }
-.info{
-    display: flex;
-    width: 400px;
-    height: 220px;
+
+
+.info {
+    width: 100%;
+    max-width: 400px;
+    line-height: 1.6;
 }
-.zorro{
-    display: flex;
-    width: 400px;
-    height: 280px;
+
+.zorro img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
 }
-.caracteristicas{
+
+.caracteristicas {
     display: flex;
     justify-content: center;
-    text-transform: 60px;
     font-size: 40px;
-
+    margin-bottom: 20px;
 }
-.seccion{
+
+.seccion {
     background-color: rgb(182, 144, 95);
     text-align: center;
     padding: 35px 15px;
 }
-.iconos{
+
+.iconos {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 25px
+    font-size: 25px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.galeria{
-display: flex;
-justify-content: space-around;
-width: 20%;
-height: 20%;
+
+.galeria {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;              
+    width: 100%;            
+    padding: 50px 0;
+    flex-wrap: wrap;        
 }
-.im{
-display: flex;
- padding: 50px; 
- border: 20% black;
- width: 100%;
- height: 150px;
- object-fit: 40%;
+
+.im {
+    width: 300px;           
+    height: 200px;
 }
-footer{
+
+.im img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      
+    border-radius: 10px;
+}
+
+footer {
     background-color: rgb(182, 144, 95);
-    padding: 40px 0px 40px 30px;
+    padding: 40px;
+    text-align: center;
 }
