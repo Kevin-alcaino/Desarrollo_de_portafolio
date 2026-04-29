@@ -1,3 +1,4 @@
+
 .fondo {
     display: flex;
     justify-content: center;
@@ -9,6 +10,7 @@
     max-width: 100%;
     height: auto;
 }
+
 .titulo {
     display: flex;
     justify-content: center;
@@ -66,13 +68,14 @@
     gap: 20px;
 }
 
+
 .galeria {
     display: flex;
     justify-content: center; 
     gap: 20px;              
     width: 100%;            
     padding: 50px 0;
-    flex-wrap: wrap;        
+    flex-wrap: wrap;       
 }
 
 .im {
