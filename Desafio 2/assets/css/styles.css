@@ -1,5 +1,5 @@
 .banner{
-    background-image: url(Valdivia.png);
+    background-image: url(../img/Valdivia.png);
     background-size: cover;
     color: antiquewhite;
     padding: 40px;
@@ -18,7 +18,7 @@ border-radius: 25px;
 
 }
 .redes{
-   background-image: url(Valdivia.png);
+    background-image: url(../img/Valdivia.png);
     padding: 20px;
     margin: 15px;
     text-align: center;
