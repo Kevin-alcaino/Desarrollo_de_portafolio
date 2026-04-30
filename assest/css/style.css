@@ -8,10 +8,14 @@
 .contenedor-habilidades {  
   border-radius: 15px;      
   margin: 2px;                 
-  padding: 2px 2px 2px -2px;           
+  padding: 8px 8px 8px -2px;           
   background-color: rgb(90, 129, 134);
   max-width: 1000px;
 }
+
+/* secciones */
+
+
 
 .iconos{
     display: flex;
