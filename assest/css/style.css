@@ -56,3 +56,25 @@ aside{
      width: 100px;
     height: 100px;
 }
+/* portafolio */
+/* Tamaño fijo para las imágenes solicitado */
+.custom-img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover; /* Evita que la imagen se deforme */
+  margin: 15px auto 0; /* Centra la imagen dentro de la card */
+  display: block;
+}
+
+/* Efecto de movimiento y sombra */
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px); /* Movimiento hacia arriba */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Sombra para dar profundidad */
+  cursor: pointer;
+}
