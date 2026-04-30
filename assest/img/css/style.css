@@ -1,0 +1,58 @@
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgb(90, 129, 134);
+}
+.contenedor-habilidades {  
+  border-radius: 15px;      
+  margin: 2px;                 
+  padding: 2px 2px 2px -2px;           
+  background-color: rgb(90, 129, 134);
+  max-width: 1000px;
+}
+
+.iconos{
+    display: flex;
+    padding-bottom: 25px;
+}
+
+
+.avatar-circular {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(58, 78, 83);
+}
+
+aside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.html svg{
+    width: 100px;
+    height: 100px;
+}
+
+.css svg{
+    width: 100px;
+    height: 100px;
+}
+
+.bootstrap svg{
+    width: 100px;
+    height: 100px;
+}
+
+.git svg{
+     width: 100px;
+    height: 100px;
+}
+
+.github svg{
+     width: 100px;
+    height: 100px;
+}
