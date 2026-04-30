@@ -32,6 +32,7 @@ aside{
     justify-content: space-between;
 }
 
+/* Iconos */
 .html svg{
     width: 100px;
     height: 100px;
@@ -57,10 +58,10 @@ aside{
     height: 100px;
 }
 /* portafolio */
-/* Tamaño fijo para las imágenes solicitado */
+
 .custom-img {
   width: 200px;
-  height: 100px;
+  height: 200px;
   object-fit: cover; /* Evita que la imagen se deforme */
   margin: 15px auto 0; /* Centra la imagen dentro de la card */
   display: block;
