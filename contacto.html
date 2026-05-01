@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+</head>
+<body>
+    
+   <section class="container py-5">
+  <div class="row justify-content-center">
+    <!-- Aumentamos un poco el ancho en pantallas grandes para que luzca el tamaño -->
+    <div class="col-12 col-md-10 col-lg-8">
+      
+      <div class="card custom-contact-card">
+        <div class="card-body p-5"> <!-- Aumentamos el padding interno de la caja -->
+          <h2 class="text-center mb-5 display-6">Cuéntanos tu proyecto</h2>
+          
+          <form action="mailto:correo@ejemplo.com" method="post" enctype="text/plain">
+            
+            <!-- Campo de Correo Grande -->
+            <div class="mb-4">
+              <label class="form-label fw-bold">Correo Electrónico</label>
+              <input type="email" 
+                     class="form-control form-control-lg custom-input" 
+                     placeholder="correo@ejemplo.com" 
+                     required>
+            </div>
+
+            <!-- Campo de Mensaje Grande -->
+            <div class="mb-4">
+              <label class="form-label fw-bold">Mensaje________</label>
+              <textarea class="form-control form-control-lg custom-input" 
+                        rows="8" 
+                        placeholder="Describe detalladamente lo que necesitas..." 
+                        required></textarea>
+            </div>
+
+            <div class="d-grid mt-5">
+              <button type="submit" class="btn btn-primary btn-lg py-3 fw-bold">
+                ENVIAR MENSAJE
+              </button>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</body>
+</html>

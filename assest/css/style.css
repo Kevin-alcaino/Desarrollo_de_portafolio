@@ -83,3 +83,33 @@ aside{
   box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Sombra para dar profundidad */
   cursor: pointer;
 }
+
+/* Contacto.html */
+.custom-contact-card {
+  border-radius: 20px !important; /* Más redondeado para combinar con el tamaño */
+  margin: 2px;
+  border: 1px solid #eee;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* Estilizamos los recuadros (inputs y textarea) */
+.custom-input {
+  border: 2px solid #e9ecef !important; /* Borde un poco más grueso */
+  padding: 1.2rem !important;           /* Más espacio interno */
+  font-size: 1.1rem !important;        /* Letra un poco más grande */
+  transition: all 0.3s ease;
+}
+
+/* Efecto cuando el usuario hace clic para escribir */
+.custom-input:focus {
+  border-color: #7952b3 !important;
+  background-color: #fdfbff;
+  box-shadow: 0 0 10px rgba(121, 82, 179, 0.15);
+}
+
+/* El botón también debe ser imponente */
+.btn-lg {
+  letter-spacing: 1px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+}
