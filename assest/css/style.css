@@ -14,14 +14,10 @@
 }
 
 /* secciones */
-
-
-
 .iconos{
     display: flex;
     padding-bottom: 25px;
 }
-
 
 .avatar-circular {
     width: 180px;
