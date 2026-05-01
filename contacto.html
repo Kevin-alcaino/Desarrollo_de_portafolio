@@ -1,39 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contacto</title>
-    <link rel="stylesheet" href="assest/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assest/css/style.css">  
 </head>
-<body>
-    
+  <body>
+   <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Contacto</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        
+        
+        <a class="nav-link" href="index.html">inicio</a>
+      </div>
+    </div>
+  </div>
+</nav>
    <section class="container py-5">
   <div class="row justify-content-center">
-    <!-- Aumentamos un poco el ancho en pantallas grandes para que luzca el tamaño -->
+    
     <div class="col-12 col-md-10 col-lg-8">
-      
+     
       <div class="card custom-contact-card">
-        <div class="card-body p-5"> <!-- Aumentamos el padding interno de la caja -->
+        <div class="card-body p-5"> 
           <h2 class="text-center mb-5 display-6">Cuéntanos tu proyecto</h2>
-          
+         
           <form action="mailto:correo@ejemplo.com" method="post" enctype="text/plain">
-            
-            <!-- Campo de Correo Grande -->
+           
+            <!-- Campo de Correo  -->
             <div class="mb-4">
               <label class="form-label fw-bold">Correo Electrónico</label>
-              <input type="email" 
-                     class="form-control form-control-lg custom-input" 
-                     placeholder="correo@ejemplo.com" 
+              <input type="email"
+                     class="form-control form-control-lg custom-input"
+                     placeholder="correo@ejemplo.com"
                      required>
             </div>
 
-            <!-- Campo de Mensaje Grande -->
+            <!-- Campo de Mensaje -->
             <div class="mb-4">
-              <label class="form-label fw-bold">Mensaje________</label>
-              <textarea class="form-control form-control-lg custom-input" 
-                        rows="8" 
-                        placeholder="Describe detalladamente lo que necesitas..." 
+              <label class="form-label fw-bold">Mensaje</label>
+              <textarea class="form-control form-control-lg custom-input"
+                        rows="8"
+                        placeholder="Describe detalladamente lo que necesitas..."
                         required></textarea>
             </div>
 
@@ -42,7 +57,7 @@
                 ENVIAR MENSAJE
               </button>
             </div>
-            
+           
           </form>
         </div>
       </div>
@@ -50,5 +65,7 @@
     </div>
   </div>
 </section>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
 </html>
