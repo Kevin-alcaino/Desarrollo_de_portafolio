@@ -1,6 +1,27 @@
 header{
     background-color: rgb(26, 77, 97);
 }
+/* Clase para el fondo del header */
+.bg-herovalle {
+     background-color: rgb(26, 77, 97); /* El color verde de tu imagen */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajuste para que los títulos no se desborden en pantallas pequeñas */
+h1 {
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+/* Si la imagen sigue siendo muy grande en celular */
+.avatar-circular {
+    width: 200px; /* Ajusta según prefieras */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 .contenedor{
     display: flex;
     justify-content: space-evenly;
