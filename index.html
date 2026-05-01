@@ -8,37 +8,43 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
   <body>
-    <header>
-       <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Kevin Alcaino</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        
-        <a class="nav-link" href="#perfil">Perfil</a>
-        <a class="nav-link" href="#portafolio">Portafolio</a>
-        <a class="nav-link" href="contacto.html">Contacto</a>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Kevin Alcaino</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#perfil">Perfil</a>
+          <a class="nav-link" href="#portafolio">Portafolio</a>
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+ <!-- Sección Hero (Foto y Título) -->
+<header> <!-- Agregué un fondo opcional para verificar que no haya espacios -->
+  <div class="container py-5"> <!-- Cambié my-5 por py-5 (padding en lugar de margin) -->
+    <div class="row align-items-center g-0"> <!-- g-0 elimina gutters de la fila si fuera necesario -->
+      <!-- Caja de la Imagen -->
+      <div class="col-12 col-md-4 text-center text-md-start">
+        <img src="assest/img/678412131_35693343506946063_5660530379082649701_n.jpg" alt="Kevin Alcaino" class="avatar-circular mb-3 img-fluid">
+      </div>
+      <!-- Caja del Texto -->
+      <div class="col-12 col-md-8 text-center text-md-start">
+        <h1 class="display-3 display-md-1 fw-bold">
+          Desarrollador Front End.
+        </h1>
+        <p class="my-4 fs-5">
+          Desarrollador Frontend apasionado por crear interfaces de usuario atractivas, funcionales y accesibles. Especializado en transformar diseños en código limpio utilizando tecnologías modernas.
+        </p>
       </div>
     </div>
   </div>
-</nav>
-<div class="contenedor">
-    <div class="box">
-        <img src="assest/img/678412131_35693343506946063_5660530379082649701_n.jpg" alt="Kevin Alcaino" class="avatar-circular mb-3">
-    </div>
-    <div class="box">
-         <h1 class="display-1 fw-bold my-5">
-           Desarrollador Front End. <br />
-          </h1>
-          <p class="my-4 fs-5">
-            Desarrollador Frontend apasionado por crear interfaces de usuario atractivas, funcionales y accesibles. Especializado en transformar diseños en código limpio utilizando tecnologías modernas.</p>  
-
-    </div>
-</div>
-   </header>
+</header>
    <main>
 <section id="perfil" class="exp container my-5">
     <!-- experiencia laboral -->
