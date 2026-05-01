@@ -120,3 +120,19 @@ aside{
  padding: 40px 0 0 0;
 }
 
+/* Footer */
+footer {
+    background-color: #212529; /* El mismo gris oscuro de Bootstrap */
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px; /* Separa el footer del portafolio */
+    border-top: 1px solid #343a40;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
