@@ -13,7 +13,7 @@ Mantenimiento de componentes UI utilizando Bootstrap.
 HTML, CSS, BOOTSTRAP 5, GIT / GIT HUB.
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kevin-alcaino.github.io/Desarrollo_de_portafolio/.)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kevin-alcaino.github.io/Kevin-alcaino.io/)
 
 
 
