@@ -23,10 +23,10 @@ HTML, CSS, BOOTSTRAP 5, GIT / GIT HUB.
 
 ## ✏️ Forks y Commits
 
-Código: ![image alt](https://github.com/Kevin-alcaino/Kevin-alcaino.io/blob/fb8e96d2478426148bf6abc53d6f3326427bef7f/fork%20a%20buffonico.github.io.png)
+Fork: ![image alt](https://github.com/Kevin-alcaino/Kevin-alcaino.io/blob/fb8e96d2478426148bf6abc53d6f3326427bef7f/fork%20a%20buffonico.github.io.png)
 
 Código: ![image alt](https://github.com/Kevin-alcaino/Kevin-alcaino.io/blob/fb8e96d2478426148bf6abc53d6f3326427bef7f/commit%20a%20proyecto%20buffonico.github.io.png)
 
-Código: ![image alt](https://github.com/Kevin-alcaino/Kevin-alcaino.io/blob/fb8e96d2478426148bf6abc53d6f3326427bef7f/fork%20a%20vn-vrgs.github.io.png)
+Fork: ![image alt](https://github.com/Kevin-alcaino/Kevin-alcaino.io/blob/fb8e96d2478426148bf6abc53d6f3326427bef7f/fork%20a%20vn-vrgs.github.io.png)
 
 Código: ![image alt](https://github.com/Kevin-alcaino/Kevin-alcaino.io/blob/fb8e96d2478426148bf6abc53d6f3326427bef7f/commit%20a%20vn-vrgs.github.io.png)
